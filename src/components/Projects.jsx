@@ -4,6 +4,9 @@ import mathgame from '../assets/projects/math.png'
 import ordering from '../assets/projects/ordering.png'
 import socialmedia from '../assets/projects/socialmedia.png'
 import waterworks from '../assets/projects/waterworks.png'
+import resumemaker from '../assets/projects/resumemaker.png'
+import shoutout from '../assets/projects/shoutout.png'
+import qrquiz from '../assets/projects/QRquiz.png'
 
 function Projects() {
 
@@ -13,7 +16,7 @@ function Projects() {
       src: waterworks,
       child: (
         <>
-            Water Billing Systems
+            Water Billing System
         </>
       ),
       progress: (
@@ -34,6 +37,21 @@ function Projects() {
       progress: (
         <>
             Starting to work
+        </>
+      ),
+      style: 'text-orange-500',
+    },
+    {
+      id: 3,
+      src: resumemaker,
+      child: (
+        <>
+            Resume Maker
+        </>
+      ),
+      progress: (
+        <>
+            On Upgrade
         </>
       ),
       style: 'text-orange-500',
@@ -84,6 +102,36 @@ function Projects() {
         </>
       ),
       style: 'text-orange-500',
+    },
+    {
+      id: 4,
+      src: shoutout,
+      child: (
+        <>
+            Shout Out App
+        </>
+      ),
+      progress: (
+        <>
+            On Upgrade
+        </>
+      ),
+      style: 'text-orange-500',
+    },
+    {
+      id: 5,
+      src: qrquiz,
+      child: (
+        <>
+            I.T QR Quiz Game
+        </>
+      ),
+      progress: (
+        <>
+            Done
+        </>
+      ),
+      style: 'text-green-500',
     },
   ]
 
