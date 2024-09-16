@@ -161,7 +161,7 @@ function Projects() {
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
             {projectsMobile.map(({id, src, child, progress, style}) => (
               <div key={id} className='bg-gray-800 shadow-md shadow-gray-700 rounded-lg overflow-hidden'>
-                <img src={src} alt="" className='w-full h-full object-cover object-center' />
+                <img src={src} alt="" className='w-full h-70 object-cover object-center' />
                 <div className='p-4'>
                   <p className='font-medium'>{child}</p>
                   <p className={`mt-2 ${style}`}>{progress}</p>
