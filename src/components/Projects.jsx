@@ -163,7 +163,7 @@ function Projects() {
               
               {projectsMobile.map(({id, src, child, progress, style})=>(
                   <div key={id} className='shadow-md shadow-gray-500 rounded-lg '>
-                  <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 h-45 w-full' />
+                  <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 h-70 w-full' />
                   <div>
                     <p className='px-2 '>{child}</p>
                   </div>
